@@ -2,10 +2,10 @@
 // Components read from this file, so you can change the site without touching JSX.
 
 export const profile = {
-  name: 'Blah Blah',
-  role: 'Blah blah, blah blah blah',
+  name: 'Neeraj Kulkarni',
+  role: 'Fullstack Engineer',
   tagline: 'Blah blah blah blah, blah blah blah blah blah blah blah.',
-  location: 'Blah, Blah',
+  location: 'Hierroshield',
   email: 'blah@example.com',
   avatar: '/avatar.svg',
   socials: [
@@ -21,6 +21,7 @@ export const about = [
 ]
 
 export const skills = [
+  { category: 'category 1 ', items: ['Blah', 'Blah blah', 'Blah', 'Blah blah'] },
   { category: 'Blah', items: ['Blah', 'Blah blah', 'Blah', 'Blah blah'] },
   { category: 'Blah blah', items: ['Blah blah', 'Blah', 'Blah blah blah'] },
   { category: 'Blah blah blah', items: ['Blah', 'Blah blah'] },
